@@ -181,17 +181,6 @@
   </footer>
 
   <script>
-  
-   document.addEventListener('DOMContentLoaded', (event) => {
-  const images = document.querySelectorAll('img');
-  images.forEach(img => {
-    img.style.opacity = 0;
-    img.style.transition = 'opacity 5s';
-    img.onload = () => {
-      img.style.opacity = 1;
-    };
-  });
-});
 // Add event listeners to all images on the page
 document.querySelectorAll('img').forEach(img => {
   img.addEventListener('mouseover', () => {
