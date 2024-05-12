@@ -1,2 +1,215 @@
-# Portfolionew
-my personal website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name - Personal Website</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #50b3a2;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+  }
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header ul {
+    padding: 0;
+    list-style: none;
+  }
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding {
+    float: left;
+  }
+  header #branding h1 {
+    margin: 0;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+  }
+  header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .realistic-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #e8491d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.realistic-button:hover {background-color: #e8491d}
+
+.realistic-button:active {
+  background-color: #e8491d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Braimah</span> Olatilewa</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="bincomTestWebsite.html">Home</a></li>        
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to My Personal Website</h1>
+      <p>This is a place to share my work and connect with others.</p>
+      <p>I also share my tech journey here.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h1 style="color: #e8491d;">About Me</h1>
+      <p>Braimah Olatilewa <br>
+        300lv Software Engineering Student <br>
+         <br>
+        Professional Summary: <br>
+        Aspiring Software Engineer currently pursuing a Bachelor's degree in Software Engineering. Passionate about coding, problem-solving, and learning new technologies. Eager to apply theoretical knowledge in a practical environment and contribute to team success through hard work, attention to detail, and excellent organizational skills. <br>
+        <br>
+        Education: <br>
+        Bachelor of Science in Software Engineering <br>
+        Babcock University, Expected Graduation: july 2026 <br>
+        Relevant Coursework: Fundamentals of software engineering, Object-Oriented Programming, Web Development, Software evolution and Maintenance, Software Engineering Economics, Professional ethics e.t.c . <br>
+        <br>
+        Technical Skills: <br>
+        - Programming Languages: Python, JavaScript, HTML, CSS, C, C++, Visual Basic <br>
+        - Tools & Technologies: Git, Visual Studio Code, Android studios, Linux <br>
+        - Familiar with: JavaScript, SQL, Flutter, .NET framework, Mobile development e.t.c . <br> 
+        - Knowledge of Big data and data engineering tools like HDFS, Hadoop <br>
+        Projects: <br>
+        1. Personal Portfolio Website (HTML, CSS, JavaScript) <br>
+           - Developed a responsive personal portfolio website to showcase projects and skills. <br>
+           - Implemented interactive elements using JavaScript for a dynamic user experience. <br>
+        <br>
+        Work Experience:  <br>
+        Student Assistant, Computer club, Babcock University (September 2023 - Present)  <br>
+        - Assist students with answering of software related questions and assistance with assignments  <br>
+        - Maintain lab equipment and ensure a conducive learning environment.  <br>
+        Cowrywise student ambassador, Babcock University (January 2024 - Present)  <br>
+        - Introduce students to knowledege and uses of cowrywise as well as advertisement  <br>
+        <br>
+        Volunteer Experience:  <br>
+        Catalyst tutorial(September 2024 - April 2024)  <br>
+        - Taught basic C programming concepts to 100lv students  <br>
+        - Developed lesson plans and interactive activities to engage students in learning.  <br>
+        <br>
+        Extracurricular Activities:  <br>
+        - Member, Babcock University Computer Club (2022 - Present)  <br>
+        - Co - founder AgroLinks  <br>
+        <br>
+        References:  <br>
+        Available upon request.  
+        </p>
+    </div>
+  </section>
+
+  <section id="journey">
+    <div class="container">
+      <h1 style="color: #e8491d;">My journey</h1>
+      <p>Currently working on a startup with a colleague of mine.</p>
+      <p style="color: #50b3a2;">Currently learning flutter framework</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h1 style="color: #e8491d;">Contact</h1>
+      <p>31 Adeyinka Osijo, Yaba</p><br>
+      <p>If you wish to reach out to me, please send an email to braimaholatilewa@gmail.com.</p>
+      <p>Alternatively you can contact me on WhatsApp, instagram or linkedin</p>
+      <a href="https://wa.me/+2347025515397" style="text-decoration: none;">whatsApp contact</a><br>
+      <a href="https://www.instagram.com/t.u.o.y.o_?igsh=MXI1YXdjZ2g2MXA2Nw==" style="text-decoration: none;">Instagram</a><br>
+      <a href="https://www.linkedin.com/in/olatilewa-braimah-08615527a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="text-decoration: none;">linkedin</a>
+      <p>Want to talk on the phone?<br>call me on 07025515397</p>
+    </div>
+  </section>
+  <h1 style="text-align: center; color: #e8491d;"><b>GALLERY</b></h1>
+  <img src="screenshots/screenshot1.png" alt="olatilewa in 2020" width="500" height="500">
+  <img src="screenshots/screenshot2.png" alt="olatilewa and friend" width="500" height="500">
+  <img src="screenshots/screenshot3.png" alt="olatilewa and friend" width="500" height="500">
+  <img src="screenshots/screenshot4.png" alt="olatilewa and friend" width="500" height="500">
+  <img src="screenshots/screenshot5.png" alt="olatilewa in 2022" width="500" height="500"><br><br>
+  <br>
+  <button class="realistic-button" onclick="closePage()">Close Page</button>
+
+  <footer>
+    <p>© 2024 brymarjr</p>
+  </footer>
+
+  <script>
+  
+   document.addEventListener('DOMContentLoaded', (event) => {
+  const images = document.querySelectorAll('img');
+  images.forEach(img => {
+    img.style.opacity = 0;
+    img.style.transition = 'opacity 5s';
+    img.onload = () => {
+      img.style.opacity = 1;
+    };
+  });
+});
+// Add event listeners to all images on the page
+document.querySelectorAll('img').forEach(img => {
+  img.addEventListener('mouseover', () => {
+    img.style.transform = 'scale(1.1)';
+    img.style.transition = 'transform 0.5s ease-in-out';
+  });
+
+  img.addEventListener('mouseout', () => {
+    img.style.transform = 'scale(1)';
+  });
+});
+
+function closePage() {
+  if (confirm("Are you sure you want to close this page?")) {
+    window.close();
+  }
+}
+
+  </script>
+</body>
+</html>
